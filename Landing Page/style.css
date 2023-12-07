@@ -11,6 +11,7 @@
 }
 body{
     margin: 0;
+    padding: 0;
 }
 .container-liquid{
     background: var(--Black-5, rgba(30, 40, 50, 0.05));
@@ -19,13 +20,15 @@ body{
 .container{
     width: 100%;
     
+    
 }
 .row{
+   
     display: flex;
     justify-content: space-between;
 }
 .btn-manual{
-    margin-left: 50px;
+    
     border: none;
     background: none;
     margin-top: 20px;
@@ -39,7 +42,7 @@ ul{
     list-style: none;
     gap: 15px
     ;
-    margin-right: 50px;
+    
     margin-top: 30px;
     
 }
@@ -63,34 +66,28 @@ li{
     width: 20px;
     height: 20px;
 }
-.border{
-    border-top: 1320px;
-    height: 1px;
-    background-color:#E3E3E3;
-}
 .menu{
     display: flex;
-    width: 1320px;
     justify-content: space-between;
-    
+    gap: 20px
+    ;
 }
-.collections{
-    margin-left: 30px;
-    margin-top: 20px;
-    display: flex;
+.border{
+   border-top: 1px solid #E3E3E3;;
 }
 h6{
     color: var(--Dark, #000);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: "opensans";
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 24px; 
     text-transform: capitalize;
-    margin-left: 30px;
 }
-h2{
+/*      Collections     */
+
+h3{
     color: var(--Dark, #000);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: "robotto";
@@ -99,24 +96,28 @@ h2{
     font-weight: 300;
     line-height: 55px;
     text-transform: capitalize;
+    margin-left: 50px;
 }
 p{
     color: var(--Dark, #000);
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "robotto";
+    margin-left: 50px;
+    font-family: "roboto";
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 55px;
     text-transform: capitalize;
 }
-.btn-shop{
-    background: var(--Black, #1E2832);
+.col-btn{
+    width: 231px;
     display: inline-flex;
     padding: 19px 26px;
     justify-content: center;
     align-items: center;
+    border: none;
     gap: 8px;
+    background: var(--Black, #1E2832);
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: "robotto";
@@ -125,25 +126,26 @@ p{
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+    margin-left: 50px;
+    margin-top: 40px;
 }
-.container{
-    width: 100%;
+.collections{
+    display: flex;
 }
-.row{
+.col-girl{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/*      MENU2       */
+.menu2{
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
+    gap: 20px
+    ;
 }
-.card-img{
-    display: flex;
-}
+/*    Cards      */
 .cards{
-    margin-left: 20px;
+    display: flex;
+    gap: 10px;
 }
-.cards2{
-    margin-right: 10px;
-    
-}
-.card-top{
-    margin-top: 10px;
-}
-
