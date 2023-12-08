@@ -10,12 +10,16 @@
     box-sizing: border-box;
 }
 body{
+    
     margin: 0;
     padding: 0;
 }
 .container-liquid{
     background: var(--Black-5, rgba(30, 40, 50, 0.05));
     height: 800px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
 }
 .container{
     width: 100%;
@@ -96,12 +100,11 @@ h3{
     font-weight: 300;
     line-height: 55px;
     text-transform: capitalize;
-    margin-left: 50px;
+    
 }
 p{
     color: var(--Dark, #000);
     font-feature-settings: 'clig' off, 'liga' off;
-    margin-left: 50px;
     font-family: "roboto";
     font-size: 30px;
     font-style: normal;
@@ -126,7 +129,7 @@ p{
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
-    margin-left: 50px;
+    
     margin-top: 40px;
 }
 .collections{
@@ -146,6 +149,11 @@ p{
 }
 /*    Cards      */
 .cards{
+   display: flex;
+   gap: 10px
+   ;
+}
+.card1{
     display: flex;
     gap: 10px;
 }
