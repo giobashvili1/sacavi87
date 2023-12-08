@@ -27,7 +27,7 @@ body{
     
 }
 .row{
-   
+   margin-top: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -148,12 +148,15 @@ p{
     ;
 }
 /*    Cards      */
-.cards{
-   display: flex;
-   gap: 10px
-   ;
-}
 .card1{
     display: flex;
     gap: 10px;
+}
+.sml-crd{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.crd{
+    height: 320px;
 }
