@@ -1,0 +1,196 @@
+@font-face{
+    font-family: "robotto";
+    src: url(./fonts/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: "open sans";
+    src: url(./fonts/OpenSans_Condensed-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+section{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    
+}
+body{
+    margin: 0;
+}
+.section1{
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    padding-bottom: 60px;
+    height: 130vh;
+   padding-top: 30px;
+   
+}
+.company-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;  
+    gap: 10px;
+   
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.shop{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: var(--Black, #1E2832);
+    font-family: "robotto";
+    font-size: 18px;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0;
+}
+li a{
+    color: var(--Dark, #000); 
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+.container{
+    margin-top: 81px;
+    display: flex;
+    gap: 98px;
+}
+h1{
+    color: var(--Dark, #000);  
+    font-family: "robotto";
+    font-size: 74px;
+    font-weight: 300;
+}
+p{
+    color: var(--Dark, #000);
+    font-family: "robotto";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 55px; /* 183.333% */
+    width: 682px;
+}
+button{
+    width: 223px;
+    height: 72px;
+    display: inline-flex;
+    padding: 19px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--Black, #1E2832); 
+    color: var(--White, #FFF);
+    font-family: "robotto";
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+/*      SECTION2        */
+.section2{
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+    ;
+}
+/*          SECTION3             */
+.section3 img{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    gap: 15px
+    ;
+}
+.card4{
+    margin-top: 18px;
+}
+/*       SECTION4               */
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    color: var(--Dark, #000);
+    text-align: center;
+    font-family: "robotto";
+    font-size: 50px; 
+    font-weight: 600;
+}
+.products{
+    display: flex;
+    justify-content: start;
+    gap: 25px
+    ;
+}
+.grey{
+    color: var(--Dark-50, rgba(0, 0, 0, 0.50));
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 62px;
+    height: 22px;
+    padding: 0;
+    margin: 0;
+    color: var(--White, #FFF);
+    font-family: "open sans";
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.prices{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px
+    ;
+}
+.prices img{
+    width: 100%;
+}
+h3{
+    color: var(--Dark, #000);
+    font-family:"open sans";
+    font-size: 16px;
+    word-spacing: 5px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+span{
+    color: var(--Dark-50, rgba(0, 0, 0, 0.50));
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.prc{
+    color: var(--Dark-50, rgba(0, 0, 0, 0.50));
+     float: right;
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+.prc2{
+    color: var(--Primary, #FF6F61);
+     float: right;
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600;
+}
