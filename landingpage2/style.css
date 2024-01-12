@@ -203,6 +203,8 @@ span{
 .section5{
     height:776px;
     background-image: url(./img/andrey-zvyagintsev-EQj1ZMpq_VM-unsplash\ 1.png);
+    background-repeat: no-repeat;
+background-size: cover; 
 }
 .zara{
     position: absolute;
@@ -240,4 +242,147 @@ span{
 /*          SECTION6          */
 .section6{
     margin-top: 150px;
+    position: relative;
+}
+.slide1{
+  position: absolute;
+  bottom: 330px;
+}
+.slide2{
+    position: absolute;
+    bottom: 330px;
+    right: 130px;
+}
+/*     SECTION7     */
+.section7{
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    height: 100vh;
+   
+}
+.section7 img{
+    width: 100%;
+}
+.social h1{
+    color: var(--Dark, #000);
+    text-align: center;
+    font-family: "robotto";
+    font-size: 50px;
+    font-weight: 600;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px
+    ;
+}
+.section7 h2{
+    margin-top: 70px;
+}
+.my-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.register{
+    width: 643px;
+    height: 42px;
+    flex-shrink: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: none;
+}
+.btn3{
+    width: 91px;
+    height: 5px;
+    margin: 0;
+    color: #1E2832;
+    text-align: center;
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600; 
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color:#bbb8b8;
+}
+/*       SECTION8           */
+.section8{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer{
+    width: 392px;
+    height: 207px;
+}
+span{
+    margin-top: 32px;
+    display: flex;
+    color: var(--Black-75, rgba(30, 40, 50, 0.75));
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.webs{
+    display: flex;
+    
+    margin-top: 32px;
+    gap: 36px;
+}
+.footer-menu{
+    display: flex;
+}
+.footer-menu h5{
+    margin: 0;
+    color: var(--Dark, #000);
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.footer-menu a{
+    display:block;
+    
+    margin-top: 14px;
+    color: var(--Black, #1E2832);
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+/*      SECTION9         */
+.section9{
+    height: 32px;
+    background: var(--Black, #1E2832);
+    display: flex;
+    gap: 375px;
+   
+}
+.section9 span{
+    color: var(--White, #FFF);
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+   
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.btn4{
+    width: 182px;
+    height: 22px;
+  margin: 0;
+  color: var(--White, #FFF);
+  font-family: "open sans";
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
 }
