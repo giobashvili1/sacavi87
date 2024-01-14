@@ -67,6 +67,7 @@ li a{
 .container{
     margin-top: 81px;
     display: flex;
+    justify-content: space-between;
     gap: 98px;
 }
 h1{
@@ -113,6 +114,7 @@ button{
 }
 .cards{
     display: flex;
+    justify-content: space-between;
     gap: 15px
     ;
 }
@@ -164,6 +166,7 @@ h2{
 .prices{
     margin-top: 20px;
     display: flex;
+    justify-content: space-between;
     gap: 20px
     ;
 }
@@ -271,7 +274,8 @@ background-size: cover;
 }
 .photos{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+
     align-items: center;
     gap: 24px
     ;
@@ -388,5 +392,4 @@ span{
   font-size: 16px;
   font-weight: 400;
   float: right;
-  align-items: center;
 }
